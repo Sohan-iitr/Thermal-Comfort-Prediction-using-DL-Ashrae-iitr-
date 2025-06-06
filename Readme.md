@@ -40,8 +40,8 @@ We used the **ASHRAE Global Thermal Comfort Database II**, which contains over 1
 ## 📈 Results
 
 - **Final R² Score**: **0.9887** (cross-validated)
-- **RMSE**: ~0.3
-- **MAE**: ~0.2
+- **RMSE**: ~0.083
+- **MAE**: ~0.05
 - Outperformed recent academic benchmarks (IEEE & SSRN)
 
 ## 📦 Requirements
