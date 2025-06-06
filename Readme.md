@@ -27,7 +27,7 @@ We used the **ASHRAE Global Thermal Comfort Database II**, which contains over 1
    - 80-20 train-test split with 5-fold cross-validation
 
 2. **Modeling**
-   - Baseline: AdaBoost Regressor (R² ~0.92)
+   - Baseline: 1) AdaBoost Regressor (R² ~0.96), 2) DecisionTree (R² ~0.94), 3) ElasticNet (R² ~0.48)
    - Main Model: Dense Feedforward Neural Network (PyTorch)
    - Optimized using **Optuna** (Tree-structured Parzen Estimator)
 
